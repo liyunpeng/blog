@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="description" content="">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdn.ckeditor.com/4.13.1/standard-all/contents.css?t=JB9C">
+    <link type="text/css" rel="stylesheet" href="https://cdn.ckeditor.com/4.13.1/standard-all/plugins/tableselection/styles/tableselection.css">
+    <link href="/styles/site.css?202003041143" rel="stylesheet">
+    {{ part "title" }}
+</head>
+<body spellcheck="false">
+{{ render "shared/_toper.html"}}
+<div id="main">
+    {{ yield }}
+</div>
+<div id="footer">
+    {{render "shared/_footer.html"}}
+</div>
+</body>
+</html>
